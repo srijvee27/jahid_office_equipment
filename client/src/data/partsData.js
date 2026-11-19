@@ -1,0 +1,254 @@
+export const initialParts = [
+  {
+    "name": "Dual Scan Document Feeder (DSDF)",
+    "slug": "dsdf-mr4010",
+    "partNumber": "MR-4010 / MR-4020",
+    "category": "Modular Option",
+    "layer": "external",
+    "priceBDT": 106500,
+    "shortDesc": "300-sheet capacity, scans up to 240 ipm duplex in a single pass.",
+    "fullSpecs": "Holds up to 300 originals (A5R-A3, 35-209 g/m2). MR-4020 adds Double Feed Detection.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-dsdf-feeder.png",
+    "meshName": "mesh_dsdf_feeder",
+    "explodeOffset": { "x": 0, "y": 1.6, "z": 0 }
+  },
+  {
+    "name": "Reversing Automatic Document Feeder (RADF)",
+    "slug": "radf-mr3033",
+    "partNumber": "MR-3033",
+    "category": "Modular Option",
+    "layer": "external",
+    "priceBDT": 78500,
+    "shortDesc": "100-sheet automatic reversing document feeder (up to 73 ipm).",
+    "fullSpecs": "100-sheet capacity, A5R-A3, 35-157 g/m2. Ideal for standard office scanning.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-dsdf-feeder.png",
+    "meshName": "mesh_radf_feeder",
+    "explodeOffset": { "x": 0.4, "y": 1.5, "z": -0.2 }
+  },
+  {
+    "name": "10.1\" Multi-Touch Control Panel",
+    "slug": "control-panel-10inch",
+    "partNumber": "PANEL-101-NEXT",
+    "category": "Spare Part",
+    "layer": "external",
+    "priceBDT": 34500,
+    "shortDesc": "26 cm (10.1\") tiltable tablet-style colour touch panel.",
+    "fullSpecs": "Fully customisable UI with embedded web browser and e-BRIDGE Next integration.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-touch-panel-10inch.png",
+    "meshName": "mesh_control_panel",
+    "explodeOffset": { "x": 0.8, "y": 0.7, "z": 1.4 }
+  },
+  {
+    "name": "Paper Feed Pedestal (550-Sheet)",
+    "slug": "paper-feed-pedestal-kd1072",
+    "partNumber": "KD-1072",
+    "category": "Modular Option",
+    "layer": "external",
+    "priceBDT": 46200,
+    "shortDesc": "1-Cassette 550-sheet lower paper feed pedestal (A5R-A3).",
+    "fullSpecs": "Supports 60-163 g/m2 paper. Expandable with MY-1052 Drawer Module.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-paper-pedestal.png",
+    "meshName": "mesh_paper_pedestal",
+    "explodeOffset": { "x": 0, "y": -1.5, "z": 0.3 }
+  },
+  {
+    "name": "Inner Finisher (600-Sheet)",
+    "slug": "inner-finisher-mj1048",
+    "partNumber": "MJ-1048",
+    "category": "Modular Option",
+    "layer": "external",
+    "priceBDT": 92000,
+    "shortDesc": "2-tray internal finisher with 50-sheet multi-position stapling.",
+    "fullSpecs": "600-sheet capacity, A4R-A3 stapling (60-105 g/m2). Compact internal footprint.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-finisher-unit.png",
+    "meshName": "mesh_inner_finisher",
+    "explodeOffset": { "x": -1.7, "y": 0.2, "z": 0 }
+  },
+  {
+    "name": "Saddle Stitch Finisher (3,250-Sheet)",
+    "slug": "saddle-stitch-finisher-mj1116",
+    "partNumber": "MJ-1116",
+    "category": "Modular Option",
+    "layer": "external",
+    "priceBDT": 195000,
+    "shortDesc": "Booklet maker up to 60 pages + 50-sheet multi-position stapling.",
+    "fullSpecs": "2 trays, 3,250-sheet capacity, supports optional 2/4 Hole Punch Unit.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-finisher-unit.png",
+    "meshName": "mesh_saddle_finisher",
+    "explodeOffset": { "x": -2.1, "y": -0.2, "z": 0 }
+  },
+  {
+    "name": "Process / Drum + Developer Unit",
+    "slug": "drum-developer-unit",
+    "partNumber": "6LL51753400 / EPU-K166K",
+    "category": "Spare Part",
+    "layer": "internal",
+    "priceBDT": 42500,
+    "shortDesc": "Complete black imaging drum & developer unit for crisp output.",
+    "fullSpecs": "Replace when print density drops, grey background appears, or drum life expires.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-drum-developer.png",
+    "meshName": "mesh_drum_unit",
+    "explodeOffset": { "x": 0.9, "y": 0.1, "z": 1.5 }
+  },
+  {
+    "name": "Fuser Unit (Heater Section)",
+    "slug": "fuser-unit",
+    "partNumber": "6LL51810000",
+    "category": "Spare Part",
+    "layer": "internal",
+    "priceBDT": 54000,
+    "shortDesc": "High-temp fixing assembly that bonds toner permanently to paper.",
+    "fullSpecs": "220-240V assembly. Replace if paper jams at exit or toner smears on page.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-fuser-unit.png",
+    "meshName": "mesh_fuser_unit",
+    "explodeOffset": { "x": -0.9, "y": 0.2, "z": 1.3 }
+  },
+  {
+    "name": "Transfer Belt Assembly",
+    "slug": "transfer-belt-unit",
+    "partNumber": "6LL44835000",
+    "category": "Spare Part",
+    "layer": "internal",
+    "priceBDT": 36500,
+    "shortDesc": "Image transfer belt assembly for clean, streak-free prints.",
+    "fullSpecs": "OEM-grade belt assembly. Replace when belt surface is scratched or worn.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-transfer-belt.png",
+    "meshName": "mesh_transfer_belt",
+    "explodeOffset": { "x": 0.2, "y": -0.3, "z": 1.6 }
+  },
+  {
+    "name": "Original Black Toner Cartridge",
+    "slug": "toner-cartridge-t3028p",
+    "partNumber": "T-3028P / T-3028C",
+    "category": "Consumable",
+    "layer": "internal",
+    "priceBDT": 14500,
+    "shortDesc": "High-yield original Toshiba black toner (~35,000–36,000 pages).",
+    "fullSpecs": "Genuine monochrome laser toner at 5% average coverage.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-toner-cartridge.png",
+    "meshName": "mesh_toner_cartridge",
+    "explodeOffset": { "x": 1.3, "y": 0.4, "z": 0.9 }
+  },
+  {
+    "name": "Paper Pickup & Feed Roller Kit",
+    "slug": "paper-pickup-roller",
+    "partNumber": "CST-H21X / 6LJ56845000",
+    "category": "Spare Part",
+    "layer": "internal",
+    "priceBDT": 4200,
+    "shortDesc": "3-piece cassette pickup, feed & separation rubber roller set.",
+    "fullSpecs": "Fixes paper misfeeds and no-feed errors in Drawer 1 & Drawer 2.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-pickup-roller.png",
+    "meshName": "mesh_pickup_roller",
+    "explodeOffset": { "x": 0.5, "y": -0.9, "z": 1.2 }
+  },
+  {
+    "name": "DSDF Document Feeder Roller Kit",
+    "slug": "dsdf-roller-kit",
+    "partNumber": "6LL48460000",
+    "category": "Spare Part",
+    "layer": "internal",
+    "priceBDT": 8500,
+    "shortDesc": "Replacement roller kit for Dual Scan Document Feeder.",
+    "fullSpecs": "Restores smooth high-speed scanning up to 240 ipm without skewing.",
+    "compatibleModels": [
+      "e-STUDIO2528A",
+      "e-STUDIO3028A",
+      "e-STUDIO3528A",
+      "e-STUDIO4528A",
+      "e-STUDIO5528A",
+      "e-STUDIO6528A"
+    ],
+    "imageUrl": "/images/part-dsdf-roller-kit.png",
+    "meshName": "mesh_dsdf_roller_kit",
+    "explodeOffset": { "x": 0.6, "y": 1.9, "z": 0.8 }
+  }
+];
